@@ -5,7 +5,7 @@ h1{font-size: xx-large;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    
+
 
 }
 .table-container {
@@ -25,7 +25,7 @@ h1{font-size: xx-large;
     height: 100px;
     border: 1px solid black;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
@@ -83,4 +83,77 @@ h1{font-size: xx-large;
   .green {
     background-color: green;
   }
+  h2{
+    font-size: 35px;
+    text-align: center;
+  }
+  p {
+    display: inline-block;
+    margin-right: 10px; 
+    font-size: 35px;
+    padding-left: 30px;
+  }
   
+ .uno{
+    color:black }
+
+ .dos {
+        color: teal;
+      }
+      
+.tres {
+        color: blue;
+      }
+      
+      .cuatro {
+        color: navy;
+      }
+      
+      .cinco {
+        color: lime;
+      }
+      
+      .seis {
+        color: white;
+      }
+      
+      .siete {
+        color: purple;
+      }
+      
+      .ocho {
+        color: yellow;
+      }
+      
+      .nueve {
+        color: olive;
+      }
+      
+      .diez {
+        color: red;
+      }
+      
+      .once {
+        color: brown;
+      }
+      
+      .doce {
+        color: gray;
+      }
+      
+      .trece {
+        color: fuchsia;
+      }
+      
+      .catorce {
+        color: green;
+      }
+      
+      .quince {
+        color: aqua;
+      }
+      
+      .dieciseis {
+        color: silver;
+      }
+      
