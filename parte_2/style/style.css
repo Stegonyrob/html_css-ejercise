@@ -8,256 +8,79 @@ h1{font-size: xx-large;
     
 
 }
-
-.grid-item{
-    width: 800px;
-    height: 100px;
-    background-color: green;
-    grid-column: 2;
+.table-container {
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .table-header {
+    font-size: xx-large;
     text-align: center;
-    font-size: 20px;
-    margin-left: 10%;
-
-    grid-row: 1;
-}
-.grid-item1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  .table-cell {
     width: 150px;
     height: 100px;
     border: 1px solid black;
-  
     padding: 10px;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    color: black;
+    cursor: pointer;
+  }
+  
+  .black {
     background-color: rgb(15, 15, 15);
-    cursor: pointer;
-    grid-row: 2;
- 
-}
-.grid-item2{
-    width: 150px;
-    height: 100px;
-    border: 1px solid black;
-    
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
+    color: white;
+  }
+  
+  .teal {
     background-color: teal;
-    cursor: pointer;
-    grid-row: 2;
-}
-.grid-item3{
-    width: 150px;
-    height: 100px;
-    border: 1px solid black;
-    
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background-color: blue
-    ;
-    cursor: pointer;
-    grid-row: 2;
-}
-.grid-item4{
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
-   
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background-color:navy;
-    cursor: pointer;
-    grid-row: 2;
-    
-}
-.grid-item5{
-    width: 150px;
-    height: 100px;
-    border: 1px solid black;
- 
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background-color:lime;
-    cursor: pointer;
-    grid-row: 2;
-    
-}
-.grid-item6{
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
+  }
   
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background-color:white;
-    cursor: pointer;
-    grid-row: 2;
-    
-}
-.grid-item7{
-    width: 150px;
-    height: 100px;
-    border: 1px solid black;
-   
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background-color:purple;
-    cursor: pointer;
-    grid-row: 3;
-    
-}
-.grid-item8{
-    width: 150px;
-    height: 100px;
-    border: 1px solid black;
+  .blue {
+    background-color: blue;
+  }
   
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background-color:yellow;
-    cursor: pointer;
-    grid-row: 3;
-    
-}
-
-
-.grid-item9{
-    width: 150px;
-    height: 100px;
-    border: 1px solid black;
-    
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background-color:olive;
-    cursor: pointer;
-    grid-row: 3;
-    
-}
-.grid-item10{
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
- 
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background-color:red;
-    cursor: pointer;
-    grid-row: 3;
-}
-.grid-item11{
-    width: 150px;
-    height: 100px;
-    border: 1px solid black;
- 
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background-color:black;
-    cursor: pointer;
-    grid-row: 3;
-    
-}.grid-item12{
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
+  .navy {
+    background-color: navy;
+  }
   
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background-color:gray;
-    cursor: pointer;
-    grid-row: 3;
-    
-}.grid-item13{
-    width: 150px;
-    height: 100px;
-    border: 1px solid black;
-   
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background-color:olive;
-    cursor: pointer;
-    grid-row: 4;
-    
-}.grid-item14{
-    width: 150px;
-    height: 100px;
-    border: 1px solid black;
+  .lime {
+    background-color: lime;
+  }
   
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background-color:red;
-    cursor: pointer;
-    grid-row: 4;
-    
-}.grid-item15{
-    width: 150px;
-    height: 100px;
-    border: 1px solid black;
-   
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background-color:fuchsia;
-    cursor: pointer;
-    grid-row: 4;
-    
-}.grid-item16{
-    width: 350px;
-    height: 100px;
-    border: 1px solid black;
-   
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-    background-color:green;
-    cursor: pointer;
-    grid-row: 4;
-    
-}
-.grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-width: 80%; 
-margin-left: 10%;
-margin-right: 30%;}
+  .white {
+    background-color: white;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .olive {
+    background-color: olive;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .gray {
+    background-color: gray;
+  }
+  
+  .fuchsia {
+    background-color: fuchsia;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
